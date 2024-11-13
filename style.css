@@ -673,4 +673,11 @@ hr {
     box-sizing: border-box;
 }
 
+.extra-elements button {
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+    padding: 2px;
+}
+
 /* Contact Us Section end */
