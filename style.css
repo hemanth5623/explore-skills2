@@ -674,10 +674,10 @@ hr {
 }
 
 .extra-elements button {
-    width: 20px;
-    height: 20px;
-    font-size: 8px;
-    padding: 2px;
+    width: 200px;  /* Increase width */
+    height: 80px;  /* Increase height */
+    font-size: 24px;
+    padding: 10px;
 }
 
 /* Contact Us Section end */
