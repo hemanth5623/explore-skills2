@@ -14,29 +14,42 @@
     position: relative;
 }
 
+/* Navigation container */
 nav {
     display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
+    justify-content: center; /* Center content horizontally */
     align-items: center;
+    padding: 2% 6%;
+    position: relative;
 }
 
+/* Logo styling - centered */
 nav .logo {
     text-decoration: none;
     font-size: 24px;
     color: #fff3f3;
     font-weight: bold;
+    position: absolute;
+    left: 50%; /* Center logo horizontally */
+    transform: translateX(-50%);
 }
 
+/* Icon in the logo */
 nav .fab {
     font-size: 42px;
-    /* color: #5236f4; */
     color: #24f8c7;
 }
 
+/* Navigation links container */
 .nav-links {
     flex: 1;
     text-align: right;
+    padding-right: 10px;
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links ul li {
@@ -706,5 +719,11 @@ hr {
 
 .left-align {
     text-align: left;
+}
+
+/* Stack radio buttons vertically */
+.radio-buttons label input[type="radio"] {
+    display: block;
+    margin: 5px 0;
 }
 /* Contact Us Section end */
