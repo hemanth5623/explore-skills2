@@ -726,4 +726,33 @@ hr {
     display: block;
     margin: 5px 0;
 }
+
+/* Feedback Section */
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align feedback section to the right */
+    margin-right: 6%;
+    margin-top: 40px;
+}
+
+.feedback label {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+
+/* Enroll Section */
+.enroll {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.enroll input[type="text"] {
+    width: 60%; /* Increased width for larger input field */
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
 /* Contact Us Section end */
